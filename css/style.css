@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
     color: white;
-  background-color: black;
-  font-family: 'Roboto', sans-serif;
+  background-color: #131313;
+  font-family: 'Lato', sans-serif;
 }
 
 /* background color, image, position, size, repeat, attachment */
 .media-picture {
+    width: 100%;
   height: 700px;
-  background-image: url(https://images.unsplash.com/photo-1585230458757-fa6f6e3760e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-image: url(https://i1.wp.com/www.heyuguys.com/images/2020/12/Jumanji-header.jpg?w=1920&ssl=1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,4 +20,10 @@ body {
 
 #titulo {
   opacity: 1;
+}
+h1{
+    font-color: white;
+}
+h2{
+    font-color: steelblue;
 }
