@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
 
 
 body {
-  background-color: darkgrey;
+    color: white;
+  background-color: black;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -13,7 +14,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
+  background-attachment: fixed;
+  /*a imagem fica fixa ao dar scroll; */
 }
 
 #titulo {
