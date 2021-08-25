@@ -22,8 +22,15 @@ body {
   opacity: 1;
 }
 h1{
-    font-color: white;
+    color: white;
 }
 h2{
-    font-color: steelblue;
+    color: steelblue;
+}
+a{
+    color: yellow;
+}
+.review-score {
+    background-color: #e6bd09;
+    padding: 10px 30px;
 }
